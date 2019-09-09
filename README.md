@@ -1,4 +1,4 @@
-# @mtpl/service-template
+# @mtpl/service
 
 <!-- description -->
 基于Koa的Server开发模版，全部使用Typescript进行开发，内置Typeorm。
