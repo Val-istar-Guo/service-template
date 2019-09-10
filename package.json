@@ -1,6 +1,14 @@
 {
   "name": "@mtpl/service",
   "version": "0.0.3",
+  "description": "typescript koa template",
+  "keywords": [
+    "mili",
+    "service",
+    "typescript",
+    "koa",
+    "template"
+  ],
   "engines": {
     "node": ">=8.9.4"
   },
