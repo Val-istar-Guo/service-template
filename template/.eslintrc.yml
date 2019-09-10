@@ -46,6 +46,7 @@ rules:
         - OneToMany
         - OneToOne
         - ManyToOne
+        - ManyToMany
         - JoinColumn
         - PrimaryGeneratedColumn
         - AfterLoad
