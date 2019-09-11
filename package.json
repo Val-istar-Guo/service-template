@@ -1,6 +1,6 @@
 {
   "name": "@mtpl/service",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "typescript koa template",
   "keywords": [
     "mili",

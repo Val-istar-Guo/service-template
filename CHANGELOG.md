@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/Val-istar-Guo/service-template/compare/v0.0.3...v0.1.0) (2019-09-11)
+
+
+### Bug Fixes
+
+* needless comma in tsconfig.json ([6467e53](https://github.com/Val-istar-Guo/service-template/commit/6467e53))
+
+
+### Features
+
+* add server error class ([2c48616](https://github.com/Val-istar-Guo/service-template/commit/2c48616))
+
+
+
 <a name="0.0.3"></a>
 ## [0.0.3](https://github.com/Val-istar-Guo/service-template/compare/v0.0.2...v0.0.3) (2019-09-10)
 
