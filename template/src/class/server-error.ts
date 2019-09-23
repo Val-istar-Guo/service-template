@@ -7,10 +7,9 @@ export class ServerError extends CustomError {
 
   status: number
 
-  constructor(status: number, message: ErrorMessage) {
+  constructor(status: number, message: ErrorMessage = '') {
     super(message)
     this.status = status
     this.expose = true
-    this.name = 'ServerError'
   }
 }
