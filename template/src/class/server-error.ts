@@ -11,5 +11,7 @@ export class ServerError extends CustomError {
     super(message)
     this.status = status
     this.expose = true
+
+    Object.defineProperty(this, 'name', { value: 'ServerError' })
   }
 }
