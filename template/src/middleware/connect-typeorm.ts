@@ -6,7 +6,7 @@ import {
   getConnection,
 } from 'typeorm'
 import { Middleware } from 'koa'
-import { logger, env } from '@/utils'
+import { logger } from '@/utils'
 import mount from 'koa-mount'
 import compose from 'koa-compose'
 
