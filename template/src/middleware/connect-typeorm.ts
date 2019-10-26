@@ -30,7 +30,10 @@ const connectMiddleware = (options: ConnectionOptions): Middleware => {
 }
 
 const resetDatebaseMiddleware = mount('/reset-database', async ctx => {
+  const { drop = false } = ctx.query
+
   const connection = getConnection()
+  if (drop) await connection.dropDatabase()
   await connection.synchronize()
   ctx.status = 200
 })
