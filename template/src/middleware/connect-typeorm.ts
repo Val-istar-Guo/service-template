@@ -18,7 +18,7 @@ const connectMiddleware = (options: ConnectionOptions): Middleware => {
     logger.info('close database connect before nodejs exit')
   })
 
-  return async (ctx, next) => {
+  return async(ctx, next) => {
     if (connection && connection.isConnected) {
       await next()
       return
@@ -39,5 +39,4 @@ const resetDatebaseMiddleware = mount('/reset-database', async ctx => {
 })
 
 // export default env.is.dev ? (options: ConnectionOptions) => compose([connectMiddleware(options), resetDatebaseMiddleware]) : connectMiddleware
-export default (options: ConnectionOptions) =>
-  compose([connectMiddleware(options), resetDatebaseMiddleware])
+export default (options: ConnectionOptions) => compose([connectMiddleware(options), resetDatebaseMiddleware])
