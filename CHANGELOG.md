@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.3"></a>
+## [0.2.3](https://github.com/Val-istar-Guo/service-template/compare/v0.2.2...v0.2.3) (2019-10-26)
+
+
+### Bug Fixes
+
+* 修复lint-stage格式化template代码的问题 ([640cebf](https://github.com/Val-istar-Guo/service-template/commit/640cebf))
+
+
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/Val-istar-Guo/service-template/compare/v0.2.1...v0.2.2) (2019-10-26)
 
